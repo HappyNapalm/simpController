@@ -7,6 +7,7 @@ Arduino Nano
 ## Arduino Nano Tech Specs ##
 
 | Microcontroller | ATmega328 |
+|-------------------|----------------------------------------|
 | Architecture | AVR |
 | Operating Voltage | 5 V |
 | Flash Memory | 32 KB of which 2 KB used by bootloader |
