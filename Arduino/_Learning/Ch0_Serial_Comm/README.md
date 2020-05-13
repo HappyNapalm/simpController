@@ -3,11 +3,13 @@ An Arduino Nano has two very important chips on it when it comes to serial commu
 
 When establishing serial communication with an Arduino Nano it is important to select a baud rate. After establishing the baud rate you can then print serially or listen. 
 
-## Project 1 ##
+## Exercise 1 ##
+In order to familiarize yourself with the IDE and the hardware. Your goal is to have the microcontroller print a string and see it on the Serial Monitor in the IDE.
+
+Hint: check out https://www.arduino.cc/reference/en/language/functions/communication/serial/ to learn more about Arduino's Hardware Abstraction Layer for serial communciation.
 
 
-
-
+## Reference ##
 | Baud Rates |
 |------------|
 | 110 |

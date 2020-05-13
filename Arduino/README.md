@@ -37,6 +37,7 @@ KiCAD is for iterating on PCB Designs associated with the project.
 Both KiCAD and QUCS use .sch files. Make sure that you are using the correct program to view the file. You will receive error messages if you choose incorrectly.
 
 ### Links ###
-https://store.arduino.cc/usa/arduino-nano <- Arduino Nano shop/spec page
+https://store.arduino.cc/usa/arduino-nano 	<- Arduino Nano shop/spec page
+https://www.arduino.cc/reference/en/ 		<- Arduino Reference guide
 
 
