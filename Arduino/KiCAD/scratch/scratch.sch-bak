@@ -446,9 +446,9 @@ Wire Notes Line
 Wire Notes Line
 	6850 4000 6850 4600
 Text GLabel 6700 4450 0    50   Input ~ 0
-A1
+A0
 Text GLabel 7650 3800 1    50   Input ~ 0
-A2
+A1
 Text GLabel 8050 4400 2    50   Input ~ 0
 JB1
 Wire Wire Line
@@ -460,11 +460,11 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 7650 3800
 Text GLabel 4200 2700 2    50   Input ~ 0
-A1
+A0
 Wire Wire Line
 	4200 2700 3950 2700
 Text GLabel 4200 2800 2    50   Input ~ 0
-A2
+A1
 Wire Wire Line
 	4200 2800 3950 2800
 Wire Wire Line
