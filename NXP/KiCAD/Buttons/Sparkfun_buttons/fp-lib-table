@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Sparkfun_buttons)(type KiCad)(uri ${KIPRJMOD}/Sparkfun_buttons.pretty)(options "")(descr ""))
+)

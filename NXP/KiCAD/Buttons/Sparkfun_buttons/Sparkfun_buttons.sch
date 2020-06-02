@@ -1,0 +1,162 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SF_~COM_07835:15mm_Silicone_Buttons SW?
+U 1 1 5ED5C78F
+P 1750 1200
+F 0 "SW?" H 2078 1246 50  0000 L CNN
+F 1 "15mm_Silicone_Buttons" H 2078 1155 50  0000 L CNN
+F 2 "" H 1750 1200 50  0001 C CNN
+F 3 "" H 1750 1200 50  0001 C CNN
+	1    1750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5ED5E215
+P 1300 850
+F 0 "#PWR?" H 1300 700 50  0001 C CNN
+F 1 "+3V3" H 1315 1023 50  0000 C CNN
+F 2 "" H 1300 850 50  0001 C CNN
+F 3 "" H 1300 850 50  0001 C CNN
+	1    1300 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5ED5ED1A
+P 1300 1600
+F 0 "#PWR?" H 1300 1350 50  0001 C CNN
+F 1 "GNDREF" H 1305 1427 50  0000 C CNN
+F 2 "" H 1300 1600 50  0001 C CNN
+F 3 "" H 1300 1600 50  0001 C CNN
+	1    1300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1600 1300 1500
+Wire Wire Line
+	1300 1500 1500 1500
+Wire Wire Line
+	1500 1500 1500 1400
+Wire Wire Line
+	1500 1500 1650 1500
+Wire Wire Line
+	1650 1500 1650 1400
+Connection ~ 1500 1500
+Wire Wire Line
+	1650 1500 1850 1500
+Wire Wire Line
+	1850 1500 1850 1400
+Connection ~ 1650 1500
+Wire Wire Line
+	1850 1500 2000 1500
+Wire Wire Line
+	2000 1500 2000 1400
+Connection ~ 1850 1500
+Wire Wire Line
+	1300 850  1500 850 
+Wire Wire Line
+	1500 850  1500 1000
+Wire Wire Line
+	1500 850  1650 850 
+Wire Wire Line
+	1650 850  1650 1000
+Connection ~ 1500 850 
+Wire Wire Line
+	1650 850  1850 850 
+Wire Wire Line
+	1850 850  1850 1000
+Connection ~ 1650 850 
+Wire Wire Line
+	1850 850  2000 850 
+Wire Wire Line
+	2000 850  2000 1000
+Connection ~ 1850 850 
+$Comp
+L SF_~COM_07835:15mm_Silicone_Buttons SW?
+U 1 1 5ED64FDA
+P 1700 2400
+F 0 "SW?" H 2028 2446 50  0000 L CNN
+F 1 "15mm_Silicone_Buttons" H 2028 2355 50  0000 L CNN
+F 2 "" H 1700 2400 50  0001 C CNN
+F 3 "" H 1700 2400 50  0001 C CNN
+	1    1700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5ED64FE0
+P 1250 2050
+F 0 "#PWR?" H 1250 1900 50  0001 C CNN
+F 1 "+3V3" H 1265 2223 50  0000 C CNN
+F 2 "" H 1250 2050 50  0001 C CNN
+F 3 "" H 1250 2050 50  0001 C CNN
+	1    1250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5ED64FE6
+P 1250 2800
+F 0 "#PWR?" H 1250 2550 50  0001 C CNN
+F 1 "GNDREF" H 1255 2627 50  0000 C CNN
+F 2 "" H 1250 2800 50  0001 C CNN
+F 3 "" H 1250 2800 50  0001 C CNN
+	1    1250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2800 1250 2700
+Wire Wire Line
+	1250 2700 1450 2700
+Wire Wire Line
+	1450 2700 1450 2600
+Wire Wire Line
+	1450 2700 1600 2700
+Wire Wire Line
+	1600 2700 1600 2600
+Connection ~ 1450 2700
+Wire Wire Line
+	1600 2700 1800 2700
+Wire Wire Line
+	1800 2700 1800 2600
+Connection ~ 1600 2700
+Wire Wire Line
+	1800 2700 1950 2700
+Wire Wire Line
+	1950 2700 1950 2600
+Connection ~ 1800 2700
+Wire Wire Line
+	1250 2050 1450 2050
+Wire Wire Line
+	1450 2050 1450 2200
+Wire Wire Line
+	1450 2050 1600 2050
+Wire Wire Line
+	1600 2050 1600 2200
+Connection ~ 1450 2050
+Wire Wire Line
+	1600 2050 1800 2050
+Wire Wire Line
+	1800 2050 1800 2200
+Connection ~ 1600 2050
+Wire Wire Line
+	1800 2050 1950 2050
+Wire Wire Line
+	1950 2050 1950 2200
+Connection ~ 1800 2050
+$EndSCHEMATC
