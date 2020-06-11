@@ -1,7 +1,9 @@
 #Notes for developing#
 
-##Quick Links##
+## Notes ##
+1. No external programmer is required for the dev board.
+2. There is a distinction between the board that I have (OM13058) and the Manley model refered to in the docs.
 
-DevBoard -> https://www.mouser.com/ProductDetail/771-OM13058UL
-
-Buttons -> https://www.sparkfun.com/datasheets/Components/4x4_button_pad.pdf
+## TODO ##
+1. 3D print cases for dev kits.
+2. Start converting things over to KiCAD.
