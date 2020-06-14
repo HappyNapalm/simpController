@@ -12,6 +12,8 @@
 #define DELIMIT "."
 #define TEN_BITS 0x3FF  //Max size of the ADC output
 
+#define SPRING_CREEP 20
+
 // Global Vars
 char arrButtonStrings[MAX_STRING];
 //! unsure how arduino handles globals...
@@ -55,14 +57,14 @@ void getX(unsigned short X)
   arrButtonStrings[6] = 0x20;
   arrButtonStrings[7] = 0x20;
   
-  if(X > CenterX)
+  if(X > CenterX + SPRING_CREEP)
   {
     if( (msTime_X - msOld_X) >= (TEN_BITS - X) )
     {
       arrButtonStrings[6] = 0x6a;
     }
   }
-  else if(X != CenterX)
+  else if(X < CenterX - SPRING_CREEP)
   {
     if( (msTime_X - msOld_X) > X )
     {
@@ -77,14 +79,14 @@ void getY(unsigned short Y)
   arrButtonStrings[4] = 0x20;
   arrButtonStrings[5] = 0x20;
   
-  if(Y > CenterY)
+  if(Y > CenterY + SPRING_CREEP)
   {
     if( (msTime_Y - msOld_Y) >= (TEN_BITS - Y) )
     {
       arrButtonStrings[4] = 0x69;
     }
   }
-  else if (Y != CenterY)
+  else if (Y < CenterY - SPRING_CREEP)
   {
     if( (msTime_Y - msOld_Y) > Y )
     {
