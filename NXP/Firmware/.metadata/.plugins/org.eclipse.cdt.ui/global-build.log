@@ -1,0 +1,45 @@
+17:25:46 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_11u68 ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:25:46 **** Incremental Build of configuration Debug for project lpc_chip_11u6x ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:25:46 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+17:27:35 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_11u68 ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:27:35 **** Incremental Build of configuration Debug for project lpc_chip_11u6x ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:27:35 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+17:27:36 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+17:27:59 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_11u68 ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:27:59 **** Incremental Build of configuration Debug for project lpc_chip_11u6x ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:27:59 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+17:28:00 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+17:34:46 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_11u68 ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:34:46 **** Incremental Build of configuration Debug for project lpc_chip_11u6x ****
+make -r all 
+make: Nothing to be done for 'all'.
+17:34:46 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+17:34:47 **** Incremental Build of configuration Debug for project demos_switch_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
