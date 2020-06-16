@@ -12,7 +12,7 @@
 #define DELIMIT "."
 #define TEN_BITS 0x3FF  //Max size of the ADC output
 
-#define SPRING_CREEP 20
+#define SPRING_CREEP 30
 
 // Global Vars
 char arrButtonStrings[MAX_STRING];
@@ -71,6 +71,10 @@ void getX(unsigned short X)
       arrButtonStrings[7] = 0x6c;
     }
   }
+//  Serial.println(X);
+//  Serial.println(CenterX);
+//  Serial.println(arrButtonStrings[6]);
+//  Serial.println(arrButtonStrings[7]);
 }
 //@about reads joystick, assigns string in place into global array
 void getY(unsigned short Y)
@@ -93,6 +97,10 @@ void getY(unsigned short Y)
       arrButtonStrings[5] = 0x6b;
     }
   }
+//  Serial.println(Y);
+//  Serial.println(CenterY);
+//  Serial.println(arrButtonStrings[4]);
+//  Serial.println(arrButtonStrings[5]);
 }
 
 void loop() {
