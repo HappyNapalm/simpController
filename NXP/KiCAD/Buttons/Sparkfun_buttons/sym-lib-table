@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "SF_ COM_07835")(type Legacy)(uri "${KIPRJMOD}/SF_ COM_07835.lib")(options "")(descr ""))
   (lib (name NPIC6C596A)(type Legacy)(uri ${KIPRJMOD}/NPIC6C596A.lib)(options "")(descr ""))
+  (lib (name liteon)(type Legacy)(uri ${KIPRJMOD}/liteon.lib)(options "")(descr ""))
 )
