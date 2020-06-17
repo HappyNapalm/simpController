@@ -781,4 +781,283 @@ Wire Wire Line
 	7750 3150 7750 3200
 Wire Wire Line
 	7500 3150 7750 3150
+$Comp
+L NPIC6C596A:596A_8bit_Shift_Register U?
+U 1 1 5EE9F9AF
+P 5600 4550
+F 0 "U?" H 4900 4350 50  0000 R CNN
+F 1 "596A_8bit_Shift_Register" H 4906 4455 50  0000 R CNN
+F 2 "" H 5600 4550 50  0001 C CNN
+F 3 "" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 4550 0    50   Input ~ 0
+Red_Data
+Wire Wire Line
+	4900 4550 4950 4550
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5EEA8C45
+P 5600 5200
+F 0 "#PWR?" H 5600 4950 50  0001 C CNN
+F 1 "GNDREF" H 5605 5027 50  0000 C CNN
+F 2 "" H 5600 5200 50  0001 C CNN
+F 3 "" H 5600 5200 50  0001 C CNN
+	1    5600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5150 5600 5200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EEAB843
+P 5600 3950
+F 0 "#PWR?" H 5600 3800 50  0001 C CNN
+F 1 "+3V3" H 5615 4123 50  0000 C CNN
+F 2 "" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3950 5600 4050
+Text GLabel 6400 4200 2    50   Input ~ 0
+Red_0
+Wire Wire Line
+	6400 4200 6250 4200
+Text GLabel 6400 4300 2    50   Input ~ 0
+Red_1
+Wire Wire Line
+	6400 4300 6250 4300
+Text GLabel 6400 4400 2    50   Input ~ 0
+Red_2
+Wire Wire Line
+	6400 4400 6250 4400
+Text GLabel 6400 4500 2    50   Input ~ 0
+Red_3
+Wire Wire Line
+	6400 4500 6250 4500
+Text GLabel 6400 4600 2    50   Input ~ 0
+Red_4
+Wire Wire Line
+	6400 4600 6250 4600
+Text GLabel 6400 4700 2    50   Input ~ 0
+Red_5
+Wire Wire Line
+	6400 4700 6250 4700
+Text GLabel 6400 4800 2    50   Input ~ 0
+Red_6
+Wire Wire Line
+	6400 4800 6250 4800
+Text GLabel 6400 4900 2    50   Input ~ 0
+Red_7
+Wire Wire Line
+	6400 4900 6250 4900
+Text GLabel 5900 3950 1    50   Input ~ 0
+Storage_Clk
+Text GLabel 5350 3950 1    50   Input ~ 0
+Shift_Clk
+Wire Wire Line
+	5350 3950 5350 4050
+Wire Wire Line
+	5900 3950 5900 4050
+Text GLabel 5900 5250 3    50   Input ~ 0
+~Output
+Text GLabel 5350 5250 3    50   Input ~ 0
+~RESET
+Wire Wire Line
+	5350 5250 5350 5150
+Wire Wire Line
+	5900 5250 5900 5150
+Text GLabel 6400 5000 2    50   Input ~ 0
+Red_Serial_Out
+Wire Wire Line
+	6250 5000 6400 5000
+$Comp
+L NPIC6C596A:596A_8bit_Shift_Register U?
+U 1 1 5EED6559
+P 8500 4500
+F 0 "U?" H 7800 4300 50  0000 R CNN
+F 1 "596A_8bit_Shift_Register" H 7806 4405 50  0000 R CNN
+F 2 "" H 8500 4500 50  0001 C CNN
+F 3 "" H 8500 4500 50  0001 C CNN
+	1    8500 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 4500 0    50   Input ~ 0
+Green_Data
+Wire Wire Line
+	7800 4500 7850 4500
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5EED6561
+P 8500 5150
+F 0 "#PWR?" H 8500 4900 50  0001 C CNN
+F 1 "GNDREF" H 8505 4977 50  0000 C CNN
+F 2 "" H 8500 5150 50  0001 C CNN
+F 3 "" H 8500 5150 50  0001 C CNN
+	1    8500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5100 8500 5150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EED6568
+P 8500 3900
+F 0 "#PWR?" H 8500 3750 50  0001 C CNN
+F 1 "+3V3" H 8515 4073 50  0000 C CNN
+F 2 "" H 8500 3900 50  0001 C CNN
+F 3 "" H 8500 3900 50  0001 C CNN
+	1    8500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3900 8500 4000
+Text GLabel 9300 4150 2    50   Input ~ 0
+Green_0
+Wire Wire Line
+	9300 4150 9150 4150
+Text GLabel 9300 4250 2    50   Input ~ 0
+Green_1
+Wire Wire Line
+	9300 4250 9150 4250
+Text GLabel 9300 4350 2    50   Input ~ 0
+Green_2
+Wire Wire Line
+	9300 4350 9150 4350
+Text GLabel 9300 4450 2    50   Input ~ 0
+Green_3
+Wire Wire Line
+	9300 4450 9150 4450
+Text GLabel 9300 4550 2    50   Input ~ 0
+Green_4
+Wire Wire Line
+	9300 4550 9150 4550
+Text GLabel 9300 4650 2    50   Input ~ 0
+Green_5
+Wire Wire Line
+	9300 4650 9150 4650
+Text GLabel 9300 4750 2    50   Input ~ 0
+Green_6
+Wire Wire Line
+	9300 4750 9150 4750
+Text GLabel 9300 4850 2    50   Input ~ 0
+Green_7
+Wire Wire Line
+	9300 4850 9150 4850
+Text GLabel 8800 3900 1    50   Input ~ 0
+Storage_Clk
+Text GLabel 8250 3900 1    50   Input ~ 0
+Shift_Clk
+Wire Wire Line
+	8250 3900 8250 4000
+Wire Wire Line
+	8800 3900 8800 4000
+Text GLabel 8800 5200 3    50   Input ~ 0
+~Output
+Text GLabel 8250 5200 3    50   Input ~ 0
+~RESET
+Wire Wire Line
+	8250 5200 8250 5100
+Wire Wire Line
+	8800 5200 8800 5100
+Text GLabel 9300 4950 2    50   Input ~ 0
+Green_Serial_Out
+Wire Wire Line
+	9150 4950 9300 4950
+$Comp
+L NPIC6C596A:596A_8bit_Shift_Register U?
+U 1 1 5EEDB817
+P 9600 2100
+F 0 "U?" H 8900 1900 50  0000 R CNN
+F 1 "596A_8bit_Shift_Register" H 8906 2005 50  0000 R CNN
+F 2 "" H 9600 2100 50  0001 C CNN
+F 3 "" H 9600 2100 50  0001 C CNN
+	1    9600 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 2100 0    50   Input ~ 0
+Blue_Data
+Wire Wire Line
+	8900 2100 8950 2100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5EEDB81F
+P 9600 2750
+F 0 "#PWR?" H 9600 2500 50  0001 C CNN
+F 1 "GNDREF" H 9605 2577 50  0000 C CNN
+F 2 "" H 9600 2750 50  0001 C CNN
+F 3 "" H 9600 2750 50  0001 C CNN
+	1    9600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2700 9600 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EEDB826
+P 9600 1500
+F 0 "#PWR?" H 9600 1350 50  0001 C CNN
+F 1 "+3V3" H 9615 1673 50  0000 C CNN
+F 2 "" H 9600 1500 50  0001 C CNN
+F 3 "" H 9600 1500 50  0001 C CNN
+	1    9600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1500 9600 1600
+Text GLabel 10400 1750 2    50   Input ~ 0
+Blue_0
+Wire Wire Line
+	10400 1750 10250 1750
+Text GLabel 10400 1850 2    50   Input ~ 0
+Blue_1
+Wire Wire Line
+	10400 1850 10250 1850
+Text GLabel 10400 1950 2    50   Input ~ 0
+Blue_2
+Wire Wire Line
+	10400 1950 10250 1950
+Text GLabel 10400 2050 2    50   Input ~ 0
+Blue_3
+Wire Wire Line
+	10400 2050 10250 2050
+Text GLabel 10400 2150 2    50   Input ~ 0
+Blue_4
+Wire Wire Line
+	10400 2150 10250 2150
+Text GLabel 10400 2250 2    50   Input ~ 0
+Blue_5
+Wire Wire Line
+	10400 2250 10250 2250
+Text GLabel 10400 2350 2    50   Input ~ 0
+Blue_6
+Wire Wire Line
+	10400 2350 10250 2350
+Text GLabel 10400 2450 2    50   Input ~ 0
+Blue_7
+Wire Wire Line
+	10400 2450 10250 2450
+Text GLabel 9900 1500 1    50   Input ~ 0
+Storage_Clk
+Text GLabel 9350 1500 1    50   Input ~ 0
+Shift_Clk
+Wire Wire Line
+	9350 1500 9350 1600
+Wire Wire Line
+	9900 1500 9900 1600
+Text GLabel 9900 2800 3    50   Input ~ 0
+~Output
+Text GLabel 9350 2800 3    50   Input ~ 0
+~RESET
+Wire Wire Line
+	9350 2800 9350 2700
+Wire Wire Line
+	9900 2800 9900 2700
+Text GLabel 10400 2550 2    50   Input ~ 0
+Blue_Serial_Out
+Wire Wire Line
+	10250 2550 10400 2550
 $EndSCHEMATC

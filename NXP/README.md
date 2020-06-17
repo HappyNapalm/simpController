@@ -9,4 +9,4 @@
 2. Start converting things over to KiCAD.
 
 ## Dev Board Differences! ##
-See PDF folder
+See Dev Kit Support Docs folder
