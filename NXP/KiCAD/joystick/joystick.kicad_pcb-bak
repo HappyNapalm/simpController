@@ -395,7 +395,7 @@
   )
 
   (gr_line (start 125.5484 86.6267) (end 83.3755 86.6267) (layer Edge.Cuts) (width 0.05) (tstamp 5EF93A7C))
-  (gr_line (start 125.5484 38.227) (end 125.5484 86.6267) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 125.5484 38.1889) (end 125.5484 86.6267) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 83.3755 38.227) (end 125.5484 38.227) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 83.3755 86.6267) (end 83.3755 38.227) (layer Edge.Cuts) (width 0.05))
 
