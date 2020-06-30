@@ -838,4 +838,93 @@ F 3 "~" H 6650 1750 50  0001 C CNN
 	1    6650 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5EFB3E73
+P 1100 900
+F 0 "SW1" H 1100 1185 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 1100 1094 50  0000 C CNN
+F 2 "" H 1100 900 50  0001 C CNN
+F 3 "~" H 1100 900 50  0001 C CNN
+	1    1100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 2 1 5EFB4C19
+P 1100 1650
+F 0 "SW2" H 1100 1935 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 1100 1844 50  0000 C CNN
+F 2 "" H 1100 1650 50  0001 C CNN
+F 3 "~" H 1100 1650 50  0001 C CNN
+	2    1100 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 5850 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2300 5850 2450 5850
+Wire Wire Line
+	2650 5800 2450 5800
+Wire Wire Line
+	2450 5800 2450 5850
+Wire Wire Line
+	2450 5900 2650 5900
+Connection ~ 2450 5850
+Wire Wire Line
+	2450 5850 2450 5900
+Text GLabel 3150 5800 2    50   Input ~ 0
+SW0
+Wire Wire Line
+	3150 5800 3050 5800
+Text GLabel 3150 5900 2    50   Input ~ 0
+SW1
+Wire Wire Line
+	3150 5900 3050 5900
+Text GLabel 800  900  0    50   Input ~ 0
+SW0
+Wire Wire Line
+	800  900  900  900 
+Text GLabel 800  1650 0    50   Input ~ 0
+SW1
+Wire Wire Line
+	800  1650 900  1650
+Text GLabel 800  1000 0    50   Input ~ 0
+Sig0
+Wire Wire Line
+	800  1000 900  1000
+Text GLabel 800  1750 0    50   Input ~ 0
+Sig1
+Wire Wire Line
+	800  1750 900  1750
+Text GLabel 2350 2900 0    50   Input ~ 0
+Sig1
+Wire Wire Line
+	2350 2900 2450 2900
+Text GLabel 2350 2800 0    50   Input ~ 0
+Sig0
+Wire Wire Line
+	2350 2800 2450 2800
+Text GLabel 1450 1550 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	1450 1550 1300 1550
+Text GLabel 1450 800  2    50   Input ~ 0
+VCC
+Wire Wire Line
+	1450 800  1300 800 
+Wire Wire Line
+	900  900  900  1000
+Connection ~ 900  900 
+Wire Wire Line
+	900  1750 900  1650
+Connection ~ 900  1650
+Text GLabel 1450 1000 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1450 1000 1300 1000
+Text GLabel 1450 1750 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1450 1750 1300 1750
 $EndSCHEMATC
