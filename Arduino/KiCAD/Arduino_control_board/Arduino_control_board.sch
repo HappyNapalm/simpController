@@ -540,7 +540,7 @@ Wire Wire Line
 Text GLabel 5450 4300 0    50   Input ~ 0
 Buttons_0
 Text GLabel 4350 4600 3    50   Input ~ 0
-B11
+B10
 Wire Wire Line
 	4350 4600 4350 4500
 Wire Wire Line
