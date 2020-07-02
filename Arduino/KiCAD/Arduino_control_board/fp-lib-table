@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name JS202011SCQN)(type KiCad)(uri "${KIPRJMOD}/JS202011SCQN .pretty")(options "")(descr ""))
+)
