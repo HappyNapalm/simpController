@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Sparkfun_buttons)(type KiCad)(uri ${KIPRJMOD}/Sparkfun_buttons.pretty)(options "")(descr ""))
+  (lib (name liteon)(type KiCad)(uri ${KIPRJMOD}/liteon.pretty)(options "")(descr ""))
+  (lib (name Terminal_labels)(type KiCad)(uri ${KIPRJMOD}/Terminal_labels.pretty)(options "")(descr ""))
+)

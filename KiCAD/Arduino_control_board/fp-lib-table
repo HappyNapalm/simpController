@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name JS202011SCQN)(type KiCad)(uri "${KIPRJMOD}/JS202011SCQN .pretty")(options "")(descr ""))
+  (lib (name Terminal_labels)(type KiCad)(uri ${KIPRJMOD}/Terminal_labels.pretty)(options "")(descr ""))
+)
