@@ -910,4 +910,59 @@ F 3 "~" H 10000 3950 50  0001 C CNN
 	1    10000 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Comparator:LM339 U?
+U 1 1 5F13B20B
+P 4350 4200
+F 0 "U?" H 4350 4567 50  0000 C CNN
+F 1 "LM339" H 4350 4476 50  0000 C CNN
+F 2 "" H 4300 4300 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 4400 4400 50  0001 C CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 2 1 5F13C886
+P 4350 4900
+F 0 "U?" H 4350 5267 50  0000 C CNN
+F 1 "LM339" H 4350 5176 50  0000 C CNN
+F 2 "" H 4300 5000 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 4400 5100 50  0001 C CNN
+	2    4350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 3 1 5F13D09C
+P 4350 5500
+F 0 "U?" H 4350 5867 50  0000 C CNN
+F 1 "LM339" H 4350 5776 50  0000 C CNN
+F 2 "" H 4300 5600 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 4400 5700 50  0001 C CNN
+	3    4350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 4 1 5F13E23A
+P 4350 6100
+F 0 "U?" H 4350 6467 50  0000 C CNN
+F 1 "LM339" H 4350 6376 50  0000 C CNN
+F 2 "" H 4300 6200 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 4400 6300 50  0001 C CNN
+	4    4350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 5 1 5F13F43D
+P 4450 6750
+F 0 "U?" H 4408 6796 50  0000 L CNN
+F 1 "LM339" H 4408 6705 50  0000 L CNN
+F 2 "" H 4400 6850 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 4500 6950 50  0001 C CNN
+	5    4450 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
