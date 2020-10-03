@@ -374,7 +374,7 @@
     (descr "terminal block RND 205-00240, 10 pins, pitch 5.08mm, size 50.8x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND")
     (tags "THT terminal block RND 205-00240 pitch 5.08mm size 50.8x8.45mm^2 drill 1.1mm pad 2.1mm")
     (path /5F1FF4F4)
-    (fp_text reference J1 (at 22.86 -5.46) (layer F.SilkS)
+    (fp_text reference J1 (at 22.9 5.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Output (at 22.86 5.11) (layer F.Fab)
