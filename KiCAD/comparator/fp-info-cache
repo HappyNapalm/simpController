@@ -1,4 +1,4 @@
-16944278227205744
+16947487489643836
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73493,6 +73493,13 @@ THT Terminal Block WAGO 804-324 45Degree pitch 7.5mm size 179x15mm^2 drill 1.2mm
 48
 24
 Terminal_labels
+2.54mm9pin
+
+
+0
+0
+0
+Terminal_labels
 HP_CON_001a
 
 
@@ -75284,3 +75291,10 @@ varistor SIOV
 0
 2
 2
+pot_TT
+P120PK-Y25BR10K
+
+
+0
+0
+0

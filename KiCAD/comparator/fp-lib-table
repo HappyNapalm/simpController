@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Terminal_labels)(type KiCad)(uri D:/git_proj/GrandKiCADFootPrints/Terminal_labels.pretty)(options "")(descr ""))
+  (lib (name pot_TT)(type KiCad)(uri ${KIPRJMOD}/pot_TT.pretty)(options "")(descr ""))
 )

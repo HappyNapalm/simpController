@@ -232,66 +232,8 @@ Text GLabel 1150 3100 0    50   Input ~ 0
 D
 Wire Wire Line
 	1150 3100 1400 3100
-$Comp
-L power:GNDREF #PWR01
-U 1 1 5F20588F
-P 1200 1400
-F 0 "#PWR01" H 1200 1150 50  0001 C CNN
-F 1 "GNDREF" H 1205 1227 50  0000 C CNN
-F 2 "" H 1200 1400 50  0001 C CNN
-F 3 "" H 1200 1400 50  0001 C CNN
-	1    1200 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1300 1200 1400
 Wire Wire Line
 	1200 1300 1400 1300
-$Comp
-L power:GNDREF #PWR02
-U 1 1 5F206AE1
-P 1200 2050
-F 0 "#PWR02" H 1200 1800 50  0001 C CNN
-F 1 "GNDREF" H 1205 1877 50  0000 C CNN
-F 2 "" H 1200 2050 50  0001 C CNN
-F 3 "" H 1200 2050 50  0001 C CNN
-	1    1200 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1950 1200 2050
-Wire Wire Line
-	1200 1950 1400 1950
-$Comp
-L power:GNDREF #PWR03
-U 1 1 5F207444
-P 1200 2700
-F 0 "#PWR03" H 1200 2450 50  0001 C CNN
-F 1 "GNDREF" H 1205 2527 50  0000 C CNN
-F 2 "" H 1200 2700 50  0001 C CNN
-F 3 "" H 1200 2700 50  0001 C CNN
-	1    1200 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 2600 1200 2700
-Wire Wire Line
-	1200 2600 1400 2600
-$Comp
-L power:GNDREF #PWR04
-U 1 1 5F207D91
-P 1200 3400
-F 0 "#PWR04" H 1200 3150 50  0001 C CNN
-F 1 "GNDREF" H 1205 3227 50  0000 C CNN
-F 2 "" H 1200 3400 50  0001 C CNN
-F 3 "" H 1200 3400 50  0001 C CNN
-	1    1200 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 3300 1200 3400
-Wire Wire Line
-	1200 3300 1400 3300
 Text GLabel 2350 1200 2    50   Input ~ 0
 1
 Wire Wire Line
@@ -521,66 +463,6 @@ Text GLabel 1150 6350 0    50   Input ~ 0
 H
 Wire Wire Line
 	1150 6350 1400 6350
-$Comp
-L power:GNDREF #PWR05
-U 1 1 5F21807D
-P 1200 4650
-F 0 "#PWR05" H 1200 4400 50  0001 C CNN
-F 1 "GNDREF" H 1205 4477 50  0000 C CNN
-F 2 "" H 1200 4650 50  0001 C CNN
-F 3 "" H 1200 4650 50  0001 C CNN
-	1    1200 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 4550 1200 4650
-Wire Wire Line
-	1200 4550 1400 4550
-$Comp
-L power:GNDREF #PWR06
-U 1 1 5F218085
-P 1200 5300
-F 0 "#PWR06" H 1200 5050 50  0001 C CNN
-F 1 "GNDREF" H 1205 5127 50  0000 C CNN
-F 2 "" H 1200 5300 50  0001 C CNN
-F 3 "" H 1200 5300 50  0001 C CNN
-	1    1200 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 5200 1200 5300
-Wire Wire Line
-	1200 5200 1400 5200
-$Comp
-L power:GNDREF #PWR07
-U 1 1 5F21808D
-P 1200 5950
-F 0 "#PWR07" H 1200 5700 50  0001 C CNN
-F 1 "GNDREF" H 1205 5777 50  0000 C CNN
-F 2 "" H 1200 5950 50  0001 C CNN
-F 3 "" H 1200 5950 50  0001 C CNN
-	1    1200 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 5850 1200 5950
-Wire Wire Line
-	1200 5850 1400 5850
-$Comp
-L power:GNDREF #PWR08
-U 1 1 5F218095
-P 1200 6650
-F 0 "#PWR08" H 1200 6400 50  0001 C CNN
-F 1 "GNDREF" H 1205 6477 50  0000 C CNN
-F 2 "" H 1200 6650 50  0001 C CNN
-F 3 "" H 1200 6650 50  0001 C CNN
-	1    1200 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 6550 1200 6650
-Wire Wire Line
-	1200 6550 1400 6550
 Text GLabel 2350 4450 2    50   Input ~ 0
 5
 Wire Wire Line
@@ -666,47 +548,118 @@ Wire Wire Line
 Wire Wire Line
 	6600 4750 6050 4750
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5F228526
 P 7300 1050
-F 0 "H?" H 7400 1096 50  0000 L CNN
+F 0 "H1" H 7400 1096 50  0000 L CNN
 F 1 "MountingHole" H 7400 1005 50  0000 L CNN
-F 2 "" H 7300 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7300 1050 50  0001 C CNN
 F 3 "~" H 7300 1050 50  0001 C CNN
 	1    7300 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5F229332
 P 8000 1050
-F 0 "H?" H 8100 1096 50  0000 L CNN
+F 0 "H2" H 8100 1096 50  0000 L CNN
 F 1 "MountingHole" H 8100 1005 50  0000 L CNN
-F 2 "" H 8000 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8000 1050 50  0001 C CNN
 F 3 "~" H 8000 1050 50  0001 C CNN
 	1    8000 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5F22B979
 P 8700 1050
-F 0 "H?" H 8800 1096 50  0000 L CNN
+F 0 "H3" H 8800 1096 50  0000 L CNN
 F 1 "MountingHole" H 8800 1005 50  0000 L CNN
-F 2 "" H 8700 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8700 1050 50  0001 C CNN
 F 3 "~" H 8700 1050 50  0001 C CNN
 	1    8700 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5F22E094
 P 9400 1050
-F 0 "H?" H 9500 1096 50  0000 L CNN
+F 0 "H4" H 9500 1096 50  0000 L CNN
 F 1 "MountingHole" H 9500 1005 50  0000 L CNN
-F 2 "" H 9400 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9400 1050 50  0001 C CNN
 F 3 "~" H 9400 1050 50  0001 C CNN
 	1    9400 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 60238D69
+P 5500 1500
+F 0 "RV?" H 5433 1546 50  0000 R CNN
+F 1 "R_POT_US" H 5433 1455 50  0000 R CNN
+F 2 "" H 5500 1500 50  0001 C CNN
+F 3 "~" H 5500 1500 50  0001 C CNN
+	1    5500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6023B582
+P 5500 1300
+F 0 "#PWR?" H 5500 1150 50  0001 C CNN
+F 1 "+5V" H 5515 1473 50  0000 C CNN
+F 2 "" H 5500 1300 50  0001 C CNN
+F 3 "" H 5500 1300 50  0001 C CNN
+	1    5500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1300 5500 1350
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6023DF3D
+P 5500 1750
+F 0 "#PWR?" H 5500 1500 50  0001 C CNN
+F 1 "GNDREF" H 5505 1577 50  0000 C CNN
+F 2 "" H 5500 1750 50  0001 C CNN
+F 3 "" H 5500 1750 50  0001 C CNN
+	1    5500 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1650 5500 1750
+Text GLabel 1200 1300 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 1950 1400 1950
+Text GLabel 1200 1950 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 2600 1400 2600
+Text GLabel 1200 2600 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 3300 1400 3300
+Text GLabel 1200 3300 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 4550 1400 4550
+Text GLabel 1200 4550 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 5200 1400 5200
+Text GLabel 1200 5200 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 5850 1400 5850
+Text GLabel 1200 5850 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	1200 6550 1400 6550
+Text GLabel 1200 6550 0    50   Input ~ 0
+Trimmer
+Wire Wire Line
+	5850 1500 5650 1500
+Text GLabel 5850 1500 2    50   Input ~ 0
+Trimmer
 $EndSCHEMATC
